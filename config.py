@@ -5,13 +5,13 @@
 @time: 2019/3/24 19:15
 @desc:
 '''
-
+import redis
 class Config(object):
     "配置信息"
-    SECURY_KEY = "XHSOI*Y9dfs9cshd9"
+    SECREY_KEY = "XHSOI*Y9dfs9cshd9"
 
     #数据库
-    SQLALCHEMY_DATABASE_URL = "mysql+pymysal://username:password@server/db"
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:302811@localhost:3306/ihome"
     SQLALCHEMY_TRACK_MODIFICATIONS = True
 
 
